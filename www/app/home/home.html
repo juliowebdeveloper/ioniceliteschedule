@@ -8,13 +8,13 @@
 <ion-tabs class="tabs-icon-top tabs-energized">
 
   <!-- Dashboard Tab -->
-  <ion-tab title="League" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
-    <ion-nav-view name="tab-dash"></ion-nav-view>
+  <ion-tab title="League" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" ui-sref="home.leagues">
+    <ion-nav-view name="tab-leagues"></ion-nav-view> <!--O nome dessas views será significante na hora do routing-->
   </ion-tab>
 
   <!-- Chats Tab -->
-  <ion-tab title="My teams" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
-    <ion-nav-view name="tab-chats"></ion-nav-view>
+  <ion-tab title="My teams" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/home/myteams">
+    <ion-nav-view name="tab-myteams"></ion-nav-view>
   </ion-tab>
 
  
